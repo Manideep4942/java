@@ -1,0 +1,20 @@
+/* <html>
+<body>
+<applet code="GraphicsDemo" width="300" height="300">
+</applet>
+</body>
+</html> */
+import java.applet.Applet;
+import java awt.*;
+public c;ass GraphicsDemo extends Applet{
+public void paint(Graphics g){
+g.setcolor(color.red);
+g.drawString("welcome",50,50);
+g.drawrect(70,100,50,30);
+g.fillrect(170,1100,30,30);
+g.drawOval(70,100,30,30);
+g.setcolor(coor.pink);
+g.fillOval(170,200,30,30);
+g.drawArc(90,1502,30,30,30,180);
+}
+}
